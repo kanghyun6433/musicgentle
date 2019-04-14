@@ -1,0 +1,100 @@
+[17.951726913] 2019-04-14 00:06:25,878 - INFO - launcher: Starting sanity checks
+[17.951726913] 2019-04-14 00:06:25,878 - INFO - launcher: Checking for Python 3.5+
+[18.949270248] 2019-04-14 00:06:25,879 - INFO - launcher: Checking console encoding
+[18.949270248] 2019-04-14 00:06:25,879 - INFO - launcher: Setting console encoding to UTF-8
+[18.949270248] 2019-04-14 00:06:25,879 - INFO - launcher: Ensuring we're in the right environment
+[19.946575165] 2019-04-14 00:06:25,880 - INFO - launcher: Adding local bins/ folder to path
+[20.943641663] 2019-04-14 00:06:25,881 - INFO - launcher: Required checks passed.
+[20.943641663] 2019-04-14 00:06:25,881 - INFO - launcher: Optional checks passed.
+[20.943641663] 2019-04-14 00:06:25,881 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[3.0568451881408691] 2019-04-14 00:06:28,917 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 213 in _setup_logging: Set logging level to INFO
+[3.0578658580780029] 2019-04-14 00:06:28,918 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 80 in __init__: =========== MusicBot (version 1.9.6_1) ===========
+[3.0588397979736328] 2019-04-14 00:06:28,919 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 86 in __init__: Loaded autoplaylist with 2531 entries
+[3.058839798] launcher-INFO: Connecting
+[6.0709536075592041] 2019-04-14 00:06:31,931 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 1011 in on_ready: Connection established, ready to go.
+[6.0709536075592041] 2019-04-14 00:06:31,931 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 324 in _cache_app_info: Caching app info
+[6.2913644313812256] 2019-04-14 00:06:32,151 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[6.2933592796325684] 2019-04-14 00:06:32,153 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 844 in _scheck_server_permissions: Checking server permissions
+[6.2933592796325684] 2019-04-14 00:06:32,153 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[6.2933592796325684] 2019-04-14 00:06:32,153 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 852 in _scheck_configs: Validating config
+[6.2933592796325684] 2019-04-14 00:06:32,153 - DEBUG - musicbot.config | In config.py::MainThread(2976), line 155 in async_validate: Validating options...
+[6.2933592796325684] 2019-04-14 00:06:32,153 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 855 in _scheck_configs: Validating permissions config
+[6.2943563461303711] 2019-04-14 00:06:32,154 - DEBUG - musicbot.permissions | In permissions.py::MainThread(2976), line 59 in async_validate: Validating permissions...
+[6.2943563461303711] 2019-04-14 00:06:32,154 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1022 in on_ready: Connected to Discord!
+[6.2943563461303711] 2019-04-14 00:06:32,154 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1032 in on_ready: Bot:   566422253827391498/젠틀맨#5904 [BOT]
+[6.2953531742095947] 2019-04-14 00:06:32,155 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1040 in on_ready: Owner: 491383382748692495/RATE#8605
+
+[6.2953531742095947] 2019-04-14 00:06:32,155 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1043 in on_ready: Server List:
+[6.2953531742095947] 2019-04-14 00:06:32,155 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1044 in <listcomp>:  - ㄹㅎ3
+[6.2953531742095947] 2019-04-14 00:06:32,155 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1044 in <listcomp>:  - fwwf
+[6.2963516712188721] 2019-04-14 00:06:32,156 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1088 in on_ready: Not bound to any text channels
+[6.2963516712188721] 2019-04-14 00:06:32,156 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1114 in on_ready: Not autojoining any voice channels
+[6.2963516712188721] 2019-04-14 00:06:32,156 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1118 in on_ready: Options:
+[6.2963516712188721] 2019-04-14 00:06:32,156 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1120 in on_ready:   Command prefix: 뤼-
+[6.2973496913909912] 2019-04-14 00:06:32,157 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1121 in on_ready:   Default volume: 25%
+[6.2973496913909912] 2019-04-14 00:06:32,157 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1123 in on_ready:   Skip threshold: 4 votes or 50%
+[6.2973496913909912] 2019-04-14 00:06:32,157 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[6.2973496913909912] 2019-04-14 00:06:32,157 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1125 in on_ready:   Auto-Summon: Enabled
+[6.2973496913909912] 2019-04-14 00:06:32,157 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1126 in on_ready:   Auto-Playlist: Disabled
+[6.2983460426330566] 2019-04-14 00:06:32,158 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1127 in on_ready:   Auto-Pause: Enabled
+[6.2983460426330566] 2019-04-14 00:06:32,158 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1128 in on_ready:   Delete Messages: Enabled
+[6.2993428707122803] 2019-04-14 00:06:32,159 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1130 in on_ready:     Delete Invoking: Disabled
+[6.2993428707122803] 2019-04-14 00:06:32,159 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1131 in on_ready:   Debug Mode: Disabled
+[6.2993428707122803] 2019-04-14 00:06:32,159 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 1132 in on_ready:   Downloaded songs will be saved
+[6.3003404140472412] 2019-04-14 00:06:32,160 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 258 in _join_startup_channels: Found owner in "일반"
+[6.3003404140472412] 2019-04-14 00:06:32,160 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 267 in _join_startup_channels: Attempting to join fwwf/일반
+[6.3003404140472412] 2019-04-14 00:06:32,160 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 437 in get_voice_client: Connection attempt 1 to 일반
+[6.3003404140472412] 2019-04-14 00:06:32,160 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 376 in join_voice_channel: (join_voice_channel) creating futures
+[6.3013377189636230] 2019-04-14 00:06:32,161 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 382 in join_voice_channel: (join_voice_channel) setting voice state
+[6.3013377189636230] 2019-04-14 00:06:32,161 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 385 in join_voice_channel: (join_voice_channel) waiting for session id
+[6.5104658603668213] 2019-04-14 00:06:32,371 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 2564 in on_voice_state_update: Voice state update for 566422253827391498/젠틀맨#5904 on fwwf/일반 -> [JOIN, CONNECT]
+[6.5104658603668213] 2019-04-14 00:06:32,371 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2575 in on_voice_state_update: 566422253827391498/젠틀맨#5904 has joined fwwf/일반
+[6.5114626884460449] 2019-04-14 00:06:32,372 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 389 in join_voice_channel: (join_voice_channel) waiting for voice data
+[6.6646742820739746] 2019-04-14 00:06:32,525 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 403 in join_voice_channel: (join_voice_channel) connecting...
+[7.1465859413146973] 2019-04-14 00:06:33,007 - VOICEDEBUG - musicbot.bot | In bot.py::MainThread(2976), line 415 in join_voice_channel: (join_voice_channel) connection successful
+[7.1465859413146973] 2019-04-14 00:06:33,007 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 463 in get_voice_client: Connected in 0.8s
+[7.1465859413146973] 2019-04-14 00:06:33,007 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 464 in get_voice_client: Connected to fwwf/일반
+[7.1475608348846436] 2019-04-14 00:06:33,008 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 805 in deserialize_queue: Deserializing queue for 563897840548446228
+[7.2682402133941650] 2019-04-14 00:06:33,128 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 555 in get_player: Created player via deserialization for server 563897840548446228 with 0 entries
+[7.2682402133941650] 2019-04-14 00:06:33,128 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 283 in _join_startup_channels: Joined fwwf/일반
+[7.2692351341247559] 2019-04-14 00:06:33,129 - VOICEDEBUG - musicbot.player | In player.py::MainThread(2976), line 311 in websocket_check: Starting websocket check loop for fwwf
+[19.5521435737609863] 2019-04-14 00:06:45,412 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 과자 좋아하니?
+[25.7696976661682129] 2019-04-14 00:06:51,630 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[25.7726886272430420] 2019-04-14 00:06:51,633 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=Hb52DwlL0_8
+[31.0434584617614746] 2019-04-14 00:06:56,904 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=Hb52DwlL0_8
+[31.0454902648925781] 2019-04-14 00:06:56,906 - FFMPEG - musicbot.player | In player.py::MainThread(2976), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Hb52DwlL0_8-You_like_snacks.webm
+[31.1441888809204102] 2019-04-14 00:06:57,004 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[304.6651384830474854] 2019-04-14 00:11:30,525 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[308.2458643913269043] 2019-04-14 00:11:34,106 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 과자 좋아하니?
+[314.1469438076019287] 2019-04-14 00:11:40,007 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[314.1479403972625732] 2019-04-14 00:11:40,008 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 195 in _download: Download cached: https://www.youtube.com/watch?v=Hb52DwlL0_8
+[316.1410403251647949] 2019-04-14 00:11:42,001 - FFMPEG - musicbot.player | In player.py::MainThread(2976), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Hb52DwlL0_8-You_like_snacks.webm
+[316.1450293064117432] 2019-04-14 00:11:42,005 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[589.6658089160919189] 2019-04-14 00:16:15,526 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[601.9438068866729736] 2019-04-14 00:16:27,804 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 과자 좋아하니?
+[609.0500020980834961] 2019-04-14 00:16:34,910 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[609.0519692897796631] 2019-04-14 00:16:34,912 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 195 in _download: Download cached: https://www.youtube.com/watch?v=Hb52DwlL0_8
+[611.0525908470153809] 2019-04-14 00:16:36,913 - FFMPEG - musicbot.player | In player.py::MainThread(2976), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Hb52DwlL0_8-You_like_snacks.webm
+[611.0565760135650635] 2019-04-14 00:16:36,917 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[884.5767333507537842] 2019-04-14 00:21:10,437 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[891.8306701183319092] 2019-04-14 00:21:17,691 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 과자 좋아하니?
+[897.8251190185546875] 2019-04-14 00:21:23,685 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[897.8280739784240723] 2019-04-14 00:21:23,688 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 195 in _download: Download cached: https://www.youtube.com/watch?v=Hb52DwlL0_8
+[899.8377163410186768] 2019-04-14 00:21:25,698 - FFMPEG - musicbot.player | In player.py::MainThread(2976), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-Hb52DwlL0_8-You_like_snacks.webm
+[899.8417108058929443] 2019-04-14 00:21:25,702 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[1173.3619129657745361] 2019-04-14 00:25:59,222 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[1192.6774313449859619] 2019-04-14 00:26:18,537 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 좋아하는것만으로 괜찮아요
+[1198.9106659889221191] 2019-04-14 00:26:24,771 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[1198.9136576652526855] 2019-04-14 00:26:24,774 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 219 in _really_download: Download started: https://www.youtube.com/watch?v=kd_3eX2VrWo
+[1200.9918460845947266] 2019-04-14 00:26:26,852 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 226 in _really_download: Download complete: https://www.youtube.com/watch?v=kd_3eX2VrWo
+[1200.9958355426788330] 2019-04-14 00:26:26,856 - FFMPEG - musicbot.player | In player.py::MainThread(2976), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-kd_3eX2VrWo-Nameless_-.webm
+[1200.9988272190093994] 2019-04-14 00:26:26,859 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[1476.0400695800781250] 2019-04-14 00:31:01,900 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[1508.0458455085754395] 2019-04-14 00:31:33,906 - INFO - musicbot.bot | In bot.py::MainThread(2976), line 2395 in on_message: 491383382748692495/RATE#8605: 뤼-play 젠틀젠틀 6년젠
+[1513.9716379642486572] 2019-04-14 00:31:39,832 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
+[1513.9757797718048096] 2019-04-14 00:31:39,836 - INFO - musicbot.entry | In entry.py::MainThread(2976), line 195 in _download: Download cached: https://www.youtube.com/watch?v=wA0UQ1bAu8k
+[1515.9788069725036621] 2019-04-14 00:31:41,839 - FFMPEG - musicbot.player | In player.py::MainThread(2976), line 268 in _play: Creating player with options: -nostdin -vn audio_cache\youtube-wA0UQ1bAu8k-6.webm
+[1515.9827985763549805] 2019-04-14 00:31:41,843 - DEBUG - musicbot.bot | In bot.py::MainThread(2976), line 781 in serialize_queue: Serializing queue for 563897840548446228
